@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 user-scalable=no"/>
+	<meta name="author" content="Rotary Watches Ltd."/>
+	
+	<title>Training Hub - Rotary Quiz</title>
+
+	<!-- Load css styles --> 
+	<link rel="stylesheet" type="text/css" href="../../css/style.css"/>
+	<script type="text/javascript" src="../../js/jquery.js"></script>
+	<script src="../../js/quiz.js"></script>
+	
+	<!-- Fav and touch icons -->
+	<link rel="shortcut icon" href="../../images/brand/favicon.png"/>
+	
+</head>
+
+<body>
+	<div class="navbar">
+		<div id= "header">
+			<a href="index.html"><img class= "headerlogo" src="../../images/brand/logo.svg" alt="Rotary Watches Logo"></a>
+		</div>
+	
+		<div class="navbar-inner">
+			<div class="container">
+				<!-- Navigation button, visible on small resolution -->
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					&#9776
+				</button>
+				<!-- Main navigation -->
+				<div class="nav-collapse collapse pull-right">
+					<ul class="nav" id="top-navigation">
+						<li><a href="index.html">Brand Heritage</a></li>
+						<li><a href="why-rotary.html">Why Rotary?</a></li>
+						<li><a href="our-product.html">Our Product</a></li>
+						<li><a href="making-the-sale.html">Making The Sale</a></li>
+						<li><a href="merchandising.html">Merchandising</a></li>
+						<li><a href="servicing.html">Servicing</a></li>
+						<li><a href="rotary-quiz.html">Rotary Quiz</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="timeline-container" id="timeline-1" style="padding-bottom:0px;">
+		<div class="timeline-header">
+			<h2 class="timeline-header__title">Rotary Quiz</h2>
+			<h3 class="timeline-header__subtitle">Rotary Watches</h3>
+		</div>
+		
+		<div id="maincon" class="alt">
+			<h1 class="centered">Have you been paying attention?</h1>
+			<div>
+				<p class="question bold">1. Who has Rotary partnered with in 2018?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq1.1" type="radio" name="q1" value="0">
+						<label for="rq1.1">Dreyfuss & Co</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq1.2" type="radio" name="q1" value="0">
+						<label for="rq1.2">1905</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq1.3" type="radio" name="q1" value="1">
+						<label for="rq1.3" id="correctString1">The Royal British Legion</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq1.4" type="radio" name="q1" value="0">
+						<label for="rq1.4">Chelsea FC</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer1"></div>
+			</div>
+			<div>
+				<p class="question bold">2. When was Rotary appointed the official watch supplier to the British Army?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq2.1" type="radio" name="q2" value="1">
+						<label for="rq2.1" id="correctString2">1940</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq2.2" type="radio" name="q2" value="0">
+						<label for="rq2.2">1960</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq2.3" type="radio" name="q2" value="0">
+						<label for="rq2.3">1906</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq2.4" type="radio" name="q2" value="0">
+						<label for="rq2.4">1914</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer2"></div>
+			</div>
+			<div>
+				<p class="question bold">3. What are the three traditional water resistance ratings Rotary mainly use?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq3.1" type="radio" name="q3" value="0">
+						<label for="rq3.1">2m | 4m | 6m</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq3.2" type="radio" name="q3" value="1">
+						<label for="rq3.2" id="correctString3">30m | 50m | 100m</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq3.3" type="radio" name="q3" value="0">
+						<label for="rq3.3">Waterproof</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq3.4" type="radio" name="q3" value="0">
+						<label for="rq3.4">Whale Standard</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer3"></div>
+			</div>
+			<div>
+				<p class="question bold">4. Where are our Rotary watches designed?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq4.1" type="radio" name="q4" value="0">
+						<label for="rq4.1">New York</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq4.2" type="radio" name="q4" value="0">
+						<label for="rq4.2">Japan</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq4.3" type="radio" name="q4" value="0">
+						<label for="rq4.3">Switzerland</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq4.4" type="radio" name="q4" value="1">
+						<label for="rq4.4" id="correctString4">Britain</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer4"></div>
+			</div>
+			<div>
+				<p class="question bold">5. Which family features the expanding bracelet?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq5.1" type="radio" name="q5" value="0">
+						<label for="rq5.1">Cambridge</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq5.2" type="radio" name="q5" value="1">
+						<label for="rq5.2" id="correctString5">London</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq5.3" type="radio" name="q5" value="0">
+						<label for="rq5.3">Ultra Slim</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq5.4" type="radio" name="q5" value="0">
+						<label for="rq5.4">Avenger</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer5"></div>
+			</div>
+			<div>
+				<p class="question bold">6. Which family is our skeletal offering?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq6.1" type="radio" name="q6" value="1">
+						<label for="rq6.1" id="correctString6">Greenwich</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq6.2" type="radio" name="q6" value="0">
+						<label for="rq6.2">Oxford</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq6.3" type="radio" name="q6" value="0">
+						<label for="rq6.3">Windsor</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq6.4" type="radio" name="q6" value="0">
+						<label for="rq6.4">Ultra Slim</label>
+					</li>					
+				</ul>
+				<div class="quizAnswers" id="correctAnswer6"></div>
+			</div>
+			<div>
+				<p class="question bold">7. What does 'VPG' stand for?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq7.1" type="radio" name="q7" value="0">
+						<label for="rq7.1">Victor Papa Golf</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq7.2" type="radio" name="q7" value="0">
+						<label for="rq7.2">Volatile Packing Guide</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq7.3" type="radio" name="q7" value="0">
+						<label for="rq7.3">Virtual Playground Gym</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq7.4" type="radio" name="q7" value="1">
+						<label for="rq7.4" id="correctString7">Visual Planning Guide</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer7"></div>
+			</div>
+			<div>
+				<p class="question bold">8. Which of the following most effectively aids family merchandising?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq8.1" type="radio" name="q8" value="0">
+						<label for="rq8.1">Remove waterproof and lifetime guarantee plaques</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq8.2" type="radio" name="q8" value="1">
+						<label for="rq8.2" id="correctString8">Addition of family plaques</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq8.3" type="radio" name="q8" value="0">
+						<label for="rq8.3">Wearing gloves</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq8.4" type="radio" name="q8" value="0">
+						<label for="rq8.4">Neatly align watches and price tickets</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer8"></div>
+			</div>
+			<div>
+				<p class="question bold">9. What certificate does Rotary hold?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq9.1" type="radio" name="q9" value="1">
+						<label for="rq9.1" id="correctString9">Certificate of Master Craftsmanship</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq9.2" type="radio" name="q9" value="0">
+						<label for="rq9.2">Certificate of Amazing Watches</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq9.3" type="radio" name="q9" value="0">
+						<label for="rq9.3">Certificate of Online Repair Forms</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq9.4" type="radio" name="q9" value="0">
+						<label for="rq9.4">Just a plain old Certificate</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer9"></div>
+			</div>
+			<div>
+				<p class="question bold">10. How much does Rotary charge for extra links?</p>
+				<ul class="quizanswers">
+					<li class="quizanswer">
+						<input class="answer" id="rq10.1" type="radio" name="q10" value="0">
+						<label for="rq10.1">Rotary charges £10 per extra link</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq10.2" type="radio" name="q10" value="0">
+						<label for="rq10.2">Rotary weighs the links and charges £10 per gram</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq10.3" type="radio" name="q10" value="1">
+						<label for="rq10.3" id="correctString10">Rotary does not charge for extra links unless the model is made of a precious metal</label>
+					</li>
+					<li class="quizanswer">
+						<input class="answer" id="rq10.4" type="radio" name="q10" value="0">
+						<label for="rq10.4">Rotary do not offer extra links</label>
+					</li>
+				</ul>
+				<div class="quizAnswers" id="correctAnswer10"></div>
+			</div>
+			<br/>
+			<div>
+				<button class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+				type="submit" value="Submit"/>SUBMIT</button>
+			</div>
+			<div>
+				<h2 class="quizScore bold" id="userScore"></h2>
+			</div>
+			</div>
+		</div>
+	
+	<a href="#" class="scrollup"> &#9650 </a>
+
+	<!-- Include javascript -->
+	<script type="text/javascript" src="../../js/bootstrap.js"></script>
+	<script src="js/image.js"></script>
+	
+	<div id = "footer">
+		<p>ICONS OF BRITISH DESIGN</p> 
+	</div>
+	
+</body>
+</html>
